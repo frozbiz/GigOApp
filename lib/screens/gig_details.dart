@@ -90,7 +90,7 @@ class GigDetailsState extends State<GigDetails> with TickerProviderStateMixin {
             child: FlatButton(
               child: Icon(Icons.arrow_back),
               onPressed: () {
-                return Navigator.push(
+                Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => MyHomePage()),
                 );
