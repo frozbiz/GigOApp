@@ -33,11 +33,29 @@ struct AgendaView: View {
             GigListView(gigs: respondedUpcomingGigs, heading: "All Upcoming Gigs", briefHeading: "My Next Few Gigs", showBrief: true)
         }
         .navigationTitle("Schedule: \(modelData.user?.name ?? "SampleUser")")
+        .toolbar {
+            Button {
+                Task {
+                    await GigOApi.logOut()
+                    modelData.user = nil
+                }
+            } label: {
+                Text("Log Out")
+            }
+        }
     }
 }
 
 struct AgendaView_Previews: PreviewProvider {
+    static private let modelData = ModelData()
     static var previews: some View {
-        AgendaView()
+        //Use this if NavigationBarTitle is with Large Font
+        let _ = UINavigationBar.appearance().largeTitleTextAttributes = [.font: UIFont.preferredFont(forTextStyle: .title1)]
+
+        NavigationView {
+            AgendaView()
+                .environmentObject(modelData)
+        }
+        .navigationViewStyle(.columns)
     }
 }
