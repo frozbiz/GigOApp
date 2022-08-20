@@ -1,0 +1,208 @@
+{
+	"weighin_plans": [{
+		"gig": {
+			"status": 0,
+			"enddate": null,
+			"title": "XR Action",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCsys6WCQw",
+			"calltime": "6:30am",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICAgIbPxQgM",
+			"settime": "7:00am",
+			"details": "Details and location within Boston are TBD, but XR is doing an action that morning they'd love for us to join for!",
+			"address": "Boston, MA",
+			"date": "2022/09/21 00:00",
+			"is_in_trash": false,
+			"postgig": "",
+			"endtime": "9:00am",
+			"dress": "",
+			"leader": "",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 0,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCsys6WCQwLEgRQbGFuGICAwLT967wJDA"
+		}
+	}],
+	"upcoming_plans": [{
+		"gig": {
+			"status": 1,
+			"enddate": null,
+			"title": "Rehearsal",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCMqsqMCww",
+			"calltime": "6:45pm",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICArK_9ygsM",
+			"settime": "7:00pm",
+			"details": "Normal rehearsal.",
+			"address": "CALA",
+			"date": "2022/08/23 00:00",
+			"is_in_trash": false,
+			"postgig": "",
+			"endtime": "8:30pm",
+			"dress": "Haute couture",
+			"leader": "K-Jeff",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 3,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCMqsqMCwwLEgRQbGFuGICAwPTXiLsLDA"
+		}
+	}, {
+		"gig": {
+			"status": 1,
+			"enddate": null,
+			"title": "Rehearsal",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCsgLuECQw",
+			"calltime": "6:45pm",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICArK_9ygsM",
+			"settime": "7:00pm",
+			"details": "Normal rehearsal.",
+			"address": "CALA",
+			"date": "2022/08/30 00:00",
+			"is_in_trash": false,
+			"postgig": "",
+			"endtime": "8:30pm",
+			"dress": "Socks",
+			"leader": "K-Jeff",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 3,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCsgLuECQwLEgRQbGFuGICAwPTX-vcJDA"
+		}
+	}, {
+		"gig": {
+			"status": 1,
+			"enddate": null,
+			"title": "Rehearsal plus monthly meeting",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMD0jf_QCgw",
+			"calltime": "6:45pm",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICArK_9ygsM",
+			"settime": "7:00pm",
+			"details": "Normal rehearsal from 7:00 - 8:15pm. Monthly meeting from 8:30 - 9:30pm.",
+			"address": "CALA",
+			"date": "2022/09/06 00:00",
+			"is_in_trash": false,
+			"postgig": "",
+			"endtime": "9:30pm",
+			"dress": "Slightly lower hemlines",
+			"leader": "K-Jeff",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 3,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMD0jf_QCgwLEgRQbGFuGICAwMyE5sULDA"
+		}
+	}, {
+		"gig": {
+			"status": 1,
+			"enddate": "2022/09/11 00:00",
+			"title": "2022 SLBB Band Camp (NH)",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCM8becCQw",
+			"calltime": "12:00pm",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICAqMuU0wgM",
+			"settime": "",
+			"details": "08/12/2022 UPDATE\r\nHey band! I am confirming this as \"Band Camp without a formal performance\" because we'd need at least a sousaphone and a confirmed bass drum for that. And this is one last plea to enable Band Camp to be musical so please consider.  \r\n\r\nSo, maybe we'll jam with what we have or each bring a non-brass band instrument and make other types of music?  Or maybe we'll just have a fun \"big kids\" summer camp experience, with outdoors activities, campfires, BBQ, hikes, lake swimming, etc.!\r\n\r\nI'll arrange a time over the next week or two for those who are signed up to talk about what we want to do and work out accommodations. \r\n----------------------------------\r\n08/03/2022 UPDATE\r\nIf only we had a tuba and a few solid green commitments from the drummers we'd have a bare bones band.  But even without them we have enough people for a really fun NH mountain weekend! So, if you haven't weighed in yet, are still sitting on the fence with an open green circle, or have changed your mind, please mark your decision in gig-o by next Wednesday, Aug 10.  \r\n\r\nThanks!\r\n---------------------------\r\n07/27/2022 REVISED DATES!\r\nSorry! Got the original dates wrong! Please check again with these new dates Sept 9 - Sept 11!\r\n---------------------------\r\nSince we can't go to Martha's Vineyard this year let's do a NH style Summer Camp weekend with the usual choices such as swimming, hiking, camping out, cooking out, a bonfire by the pond, smores, volleyball, kayaking or paddle boarding at the nearby lake, and of course, MUSIC! Perhaps we could learn a new tune, perform for the neighborhood, maybe surprise the town!  We might also pick a topic for a band discussion. This almost happened in 2020 but COVID quashed it.\r\n\r\nThese are the only dates I could reserve our free Common House guest rooms which sleep 5 people. I could offer sleeping arrangements for about 5 more in my house between a king size bed in my guest room and a comfy couch.  For those who want to camp out, we could pitch tents somewhere on the property.  This is a Dark Sky neighborhood so the stargazing is amazing!  If we wish we could reserve use of the Common House kitchen, dining room, and the large activity room would be a great place to rehearse.\r\n\r\nPlease weigh in as soon as you can. If you know for a fact you can't make it add your red.  Others, please indicate when you could arrive, and when you would be leaving so we'd know if and when we have enough players for a band, and what sleeping arrangements you's prefer. If we have enough signups for a band we should at least plan on playing for the neighbors, perhaps on Saturday night. But, even if we don't  just come and have fun. \r\n\r\nIf you have questions or comments we could start a thread in the SLBB-discuss@googlegroups.com discussion list.  If you are interested in helping to organize this, also indicate that.\r\n\r\n-jean-",
+			"address": "Nubanusit Neighborhood and Farm, 50B Steele Rd, Peterborough, NH 03458. http://www.nhcohousing.com/",
+			"date": "2022/09/09 00:00",
+			"is_in_trash": false,
+			"postgig": "Campfire",
+			"endtime": "",
+			"dress": "Sunscreen",
+			"leader": "",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 3,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMCM8becCQwLEgRQbGFuGICAwMzihbEJDA"
+		}
+	}, {
+		"gig": {
+			"status": 1,
+			"enddate": null,
+			"title": "Public Health & Black Owned Business promotion event at Roxbury Public Library",
+			"rss_description": "",
+			"id": "ag1zfmdpZy1vLW1hdGljcjMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMDMoPDFCQw",
+			"calltime": "12:15pm",
+			"paid": "",
+			"setlist": "",
+			"band": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+			"contact": "ag1zfmdpZy1vLW1hdGljchMLEgZNZW1iZXIYgICAgLD13ggM",
+			"settime": "12:30pm",
+			"details": "What type of event are you inviting us to?\tCommunity event\r\n\r\nWhat is your cause? How does your event or action advance our values of ending violence and inequality, promoting democracy, diversity and sustainability, reclaiming public spaces, building coalitions, expanding outreach to underserved communities, etc.\t\r\n\r\nHey Y'all, this is Alison Earnhart from ENSMB. Didn't know who specifically to reach out to for this, so I figured using your form might be the most direct way to address the band. \r\nI'm helping to organize a free, family-friendly event that is being held at the Roxbury public library in conjunction with the local hospital as a way to promote access to public health resources and also actively support local Black-owned businesses. It's inspired by the success of our work in Nubian Square last October for HONK! 2021. We are looking for 2-3 bands to play a set or two in the afternoon on Saturday, September 17th. Would y'all like to come? The whole event will be outdoors, and performances would take place on the front steps of the library.\r\n\r\nCOVID-19 Precautions\r\nCan/Will the band have its own space socially distanced from the crowd or do you intend for us to be dispersed throughout the event?\tYes\r\n\r\nWill you require attendees to wear masks to protect from COVID-19?\tNo\r\n\r\nWhen and where is your event?\r\nDate\t09 17, 2022\r\nStart time:\t1:00 PM\r\nEnd time:\t4:00 PM\r\n\r\nEvent address (If march or parade use start and end addresses.)\t\r\n149 Dudley Street Roxbury, MA 02119\r\n\r\nYour contact information\r\nYour name:\tAlison Earnhart\r\nEmail:\tearnhah3@gmail.com\r\nPhone number\t7243722065\r\n\r\nWhat organization do you represent (if any)\r\nOrganization Name\tCharles MGH Hospital network (same as from HONK! last year)\r\nA brief description of your organization here:\tN/A\r\n\r\nCan you make a donation to our band in exchange for our performance? If yes, please indicate the amount.\tNo, sorry.\r\n\r\nAs a large band, it can take some time for us to determine whether or not we can accept a gig request. If you have a deadline for when you'd need our answer, please let us know!\r\n07 31, 2022",
+			"address": "149 Dudley Street, Roxbury, MA 02119",
+			"date": "2022/09/17 00:00",
+			"is_in_trash": false,
+			"postgig": "",
+			"endtime": "1:15pm",
+			"dress": "",
+			"leader": "",
+			"is_private": false
+		},
+		"band": {
+			"shortname": "SLBB",
+			"name": "Second Line Brass Band"
+		},
+		"plan": {
+			"comment": "",
+			"section": "",
+			"feedback_value": "",
+			"value": 2,
+			"id": "ag1zfmdpZy1vLW1hdGljckQLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSA0dpZxiAgMDMoPDFCQwLEgRQbGFuGICAwPSpjOEJDA"
+		}
+	}]
+}

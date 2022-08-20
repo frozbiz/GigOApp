@@ -1,0 +1,45 @@
+[{
+	"hide_from_schedule": false,
+	"plan_feedback": "",
+	"simple_planning": false,
+	"is_confirmed": true,
+	"color": 0,
+	"is_multisectional": false,
+	"description": "The Second Line Social Aid and Pleasure Society Brass Band is a 25-30 piece New Orleans-style street band based in Somerville & Cambridge, Massachusetts.\r\n\r\nWe are regular folks with day jobs who combine music with social action; slamming out the sounds of the legendary Crescent City for peace rallies, street festivals, parades, and benefits.",
+	"default_section": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgNjyxAoM",
+	"is_occasional": false,
+	"shortname": "SLBB",
+	"sections": [{
+		"name": "Sax",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgLj62woM"
+	}, {
+		"name": "Clarinet",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgLicigsM"
+	}, {
+		"name": "Trumpet",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgNjyxAoM"
+	}, {
+		"name": "Trombone",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgNjDnQsM"
+	}, {
+		"name": "Corni Medi",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgPSrkwkM"
+	}, {
+		"name": "Horn in F",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICA9er_yAgM"
+	}, {
+		"name": "Tuba",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgNjyxAkM"
+	}, {
+		"name": "Snare",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgISL2gsM"
+	}, {
+		"name": "Bass Drum",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgICAgISLuggM"
+	}, {
+		"name": "Dance",
+		"id": "ag1zfmdpZy1vLW1hdGljcjcLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDAsSB1NlY3Rpb24YgIDA2IjV1woM"
+	}],
+	"id": "ag1zfmdpZy1vLW1hdGljciMLEgRCYW5kIghiYW5kX2tleQwLEgRCYW5kGICAgIC4-tsIDA",
+	"name": "Second Line Brass Band"
+}]

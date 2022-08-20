@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1F209D28AC299400C59809 /* StatusIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F209C28AC299400C59809 /* StatusIcons.swift */; };
+		BF1F20A428AC873400C59809 /* GigDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F20A328AC873400C59809 /* GigDetail.swift */; };
+		BF2179D628B028660009E6E0 /* tuba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2179D528B028660009E6E0 /* tuba.jpg */; };
+		BF2179D828B02BC50009E6E0 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2179D728B02BC50009E6E0 /* AgendaView.swift */; };
+		BFF30CAA28AF2AB1001D7052 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF30CA928AF2AB1001D7052 /* Band.swift */; };
+		BFF30CAC28AF2ABE001D7052 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF30CAB28AF2ABE001D7052 /* Plan.swift */; };
+		BFF30CAF28AF3D56001D7052 /* agenda.json in Resources */ = {isa = PBXBuildFile; fileRef = BFF30CAD28AF3D56001D7052 /* agenda.json */; };
+		BFF30CB028AF3D56001D7052 /* bands.json in Resources */ = {isa = PBXBuildFile; fileRef = BFF30CAE28AF3D56001D7052 /* bands.json */; };
+		BFF30CB728AF45B6001D7052 /* GigOApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF30CB628AF45B6001D7052 /* GigOApi.swift */; };
+		BFF30CB928AF4D8F001D7052 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF30CB828AF4D8F001D7052 /* LogInView.swift */; };
+		BFF6A9D428AC002F003935AF /* Gig_OApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9D328AC002F003935AF /* Gig_OApp.swift */; };
+		BFF6A9D628AC002F003935AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9D528AC002F003935AF /* ContentView.swift */; };
+		BFF6A9D828AC0031003935AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A9D728AC0031003935AF /* Assets.xcassets */; };
+		BFF6A9DB28AC0031003935AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A9DA28AC0031003935AF /* Preview Assets.xcassets */; };
+		BFF6A9E528AC0032003935AF /* Gig_OTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9E428AC0032003935AF /* Gig_OTests.swift */; };
+		BFF6A9EF28AC0032003935AF /* Gig_OUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9EE28AC0032003935AF /* Gig_OUITests.swift */; };
+		BFF6A9F128AC0032003935AF /* Gig_OUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9F028AC0032003935AF /* Gig_OUITestsLaunchTests.swift */; };
+		BFF6A9FF28AC0B2C003935AF /* GigListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A9FE28AC0B2C003935AF /* GigListView.swift */; };
+		BFF6AA0128AC0C2E003935AF /* GigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6AA0028AC0C2E003935AF /* GigView.swift */; };
+		BFF6AA0428AC0DEC003935AF /* Gig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6AA0328AC0DEC003935AF /* Gig.swift */; };
+		BFF6AA0628AC0E5A003935AF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6AA0528AC0E5A003935AF /* ModelData.swift */; };
+		BFF6AA0828AC0F9B003935AF /* gigData.json in Resources */ = {isa = PBXBuildFile; fileRef = BFF6AA0728AC0F9B003935AF /* gigData.json */; };
+		BFF6AA0928AC0F9B003935AF /* gigData.json in Resources */ = {isa = PBXBuildFile; fileRef = BFF6AA0728AC0F9B003935AF /* gigData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF6A9E128AC0032003935AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6A9C828AC002F003935AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF6A9CF28AC002F003935AF;
+			remoteInfo = "Gig-O";
+		};
+		BFF6A9EB28AC0032003935AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6A9C828AC002F003935AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF6A9CF28AC002F003935AF;
+			remoteInfo = "Gig-O";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1F209C28AC299400C59809 /* StatusIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIcons.swift; sourceTree = "<group>"; };
+		BF1F20A228AC3DC600C59809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF1F20A328AC873400C59809 /* GigDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigDetail.swift; sourceTree = "<group>"; };
+		BF2179D528B028660009E6E0 /* tuba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tuba.jpg; path = ../../../../images/tuba.jpg; sourceTree = "<group>"; };
+		BF2179D728B02BC50009E6E0 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		BFF30CA928AF2AB1001D7052 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		BFF30CAB28AF2ABE001D7052 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		BFF30CAD28AF3D56001D7052 /* agenda.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = agenda.json; sourceTree = "<group>"; };
+		BFF30CAE28AF3D56001D7052 /* bands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bands.json; sourceTree = "<group>"; };
+		BFF30CB628AF45B6001D7052 /* GigOApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigOApi.swift; sourceTree = "<group>"; };
+		BFF30CB828AF4D8F001D7052 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		BFF6A9D028AC002F003935AF /* Gig-O.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gig-O.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6A9D328AC002F003935AF /* Gig_OApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig_OApp.swift; sourceTree = "<group>"; };
+		BFF6A9D528AC002F003935AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF6A9D728AC0031003935AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF6A9DA28AC0031003935AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF6A9E028AC0032003935AF /* Gig-OTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gig-OTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6A9E428AC0032003935AF /* Gig_OTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig_OTests.swift; sourceTree = "<group>"; };
+		BFF6A9EA28AC0032003935AF /* Gig-OUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gig-OUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6A9EE28AC0032003935AF /* Gig_OUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig_OUITests.swift; sourceTree = "<group>"; };
+		BFF6A9F028AC0032003935AF /* Gig_OUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig_OUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFF6A9FE28AC0B2C003935AF /* GigListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigListView.swift; sourceTree = "<group>"; };
+		BFF6AA0028AC0C2E003935AF /* GigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigView.swift; sourceTree = "<group>"; };
+		BFF6AA0328AC0DEC003935AF /* Gig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig.swift; sourceTree = "<group>"; };
+		BFF6AA0528AC0E5A003935AF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BFF6AA0728AC0F9B003935AF /* gigData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gigData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF6A9CD28AC002F003935AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9DD28AC0032003935AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9E728AC0032003935AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF30CB528AF45B6001D7052 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BFF30CB628AF45B6001D7052 /* GigOApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BFF6A9C728AC002F003935AF = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9D228AC002F003935AF /* Gig-O */,
+				BFF6A9E328AC0032003935AF /* Gig-OTests */,
+				BFF6A9ED28AC0032003935AF /* Gig-OUITests */,
+				BFF6A9D128AC002F003935AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF6A9D128AC002F003935AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9D028AC002F003935AF /* Gig-O.app */,
+				BFF6A9E028AC0032003935AF /* Gig-OTests.xctest */,
+				BFF6A9EA28AC0032003935AF /* Gig-OUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF6A9D228AC002F003935AF /* Gig-O */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F20A228AC3DC600C59809 /* Info.plist */,
+				BFF6A9D328AC002F003935AF /* Gig_OApp.swift */,
+				BFF30CB528AF45B6001D7052 /* API */,
+				BFF6AA0228AC0DC2003935AF /* Model */,
+				BFF6A9FD28AC0AD8003935AF /* Views */,
+				BFF6AA0A28AC10FE003935AF /* Resources */,
+				BFF6A9D728AC0031003935AF /* Assets.xcassets */,
+				BFF6A9D928AC0031003935AF /* Preview Content */,
+			);
+			path = "Gig-O";
+			sourceTree = "<group>";
+		};
+		BFF6A9D928AC0031003935AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9DA28AC0031003935AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF6A9E328AC0032003935AF /* Gig-OTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9E428AC0032003935AF /* Gig_OTests.swift */,
+			);
+			path = "Gig-OTests";
+			sourceTree = "<group>";
+		};
+		BFF6A9ED28AC0032003935AF /* Gig-OUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9EE28AC0032003935AF /* Gig_OUITests.swift */,
+				BFF6A9F028AC0032003935AF /* Gig_OUITestsLaunchTests.swift */,
+			);
+			path = "Gig-OUITests";
+			sourceTree = "<group>";
+		};
+		BFF6A9FD28AC0AD8003935AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A9D528AC002F003935AF /* ContentView.swift */,
+				BFF6A9FE28AC0B2C003935AF /* GigListView.swift */,
+				BFF6AA0028AC0C2E003935AF /* GigView.swift */,
+				BF1F20A328AC873400C59809 /* GigDetail.swift */,
+				BFF30CB828AF4D8F001D7052 /* LogInView.swift */,
+				BF2179D728B02BC50009E6E0 /* AgendaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFF6AA0228AC0DC2003935AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F209C28AC299400C59809 /* StatusIcons.swift */,
+				BFF6AA0328AC0DEC003935AF /* Gig.swift */,
+				BFF6AA0528AC0E5A003935AF /* ModelData.swift */,
+				BFF30CA928AF2AB1001D7052 /* Band.swift */,
+				BFF30CAB28AF2ABE001D7052 /* Plan.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF6AA0A28AC10FE003935AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2179D528B028660009E6E0 /* tuba.jpg */,
+				BFF30CAD28AF3D56001D7052 /* agenda.json */,
+				BFF30CAE28AF3D56001D7052 /* bands.json */,
+				BFF6AA0728AC0F9B003935AF /* gigData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF6A9CF28AC002F003935AF /* Gig-O */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6A9F428AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-O" */;
+			buildPhases = (
+				BFF6A9CC28AC002F003935AF /* Sources */,
+				BFF6A9CD28AC002F003935AF /* Frameworks */,
+				BFF6A9CE28AC002F003935AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gig-O";
+			productName = "Gig-O";
+			productReference = BFF6A9D028AC002F003935AF /* Gig-O.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF6A9DF28AC0032003935AF /* Gig-OTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6A9F728AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-OTests" */;
+			buildPhases = (
+				BFF6A9DC28AC0032003935AF /* Sources */,
+				BFF6A9DD28AC0032003935AF /* Frameworks */,
+				BFF6A9DE28AC0032003935AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF6A9E228AC0032003935AF /* PBXTargetDependency */,
+			);
+			name = "Gig-OTests";
+			productName = "Gig-OTests";
+			productReference = BFF6A9E028AC0032003935AF /* Gig-OTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF6A9E928AC0032003935AF /* Gig-OUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6A9FA28AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-OUITests" */;
+			buildPhases = (
+				BFF6A9E628AC0032003935AF /* Sources */,
+				BFF6A9E728AC0032003935AF /* Frameworks */,
+				BFF6A9E828AC0032003935AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF6A9EC28AC0032003935AF /* PBXTargetDependency */,
+			);
+			name = "Gig-OUITests";
+			productName = "Gig-OUITests";
+			productReference = BFF6A9EA28AC0032003935AF /* Gig-OUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF6A9C828AC002F003935AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BFF6A9CF28AC002F003935AF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					BFF6A9DF28AC0032003935AF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BFF6A9CF28AC002F003935AF;
+					};
+					BFF6A9E928AC0032003935AF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BFF6A9CF28AC002F003935AF;
+					};
+				};
+			};
+			buildConfigurationList = BFF6A9CB28AC002F003935AF /* Build configuration list for PBXProject "Gig-O" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF6A9C728AC002F003935AF;
+			productRefGroup = BFF6A9D128AC002F003935AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF6A9CF28AC002F003935AF /* Gig-O */,
+				BFF6A9DF28AC0032003935AF /* Gig-OTests */,
+				BFF6A9E928AC0032003935AF /* Gig-OUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF6A9CE28AC002F003935AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A9DB28AC0031003935AF /* Preview Assets.xcassets in Resources */,
+				BF2179D628B028660009E6E0 /* tuba.jpg in Resources */,
+				BFF6A9D828AC0031003935AF /* Assets.xcassets in Resources */,
+				BFF6AA0828AC0F9B003935AF /* gigData.json in Resources */,
+				BFF30CAF28AF3D56001D7052 /* agenda.json in Resources */,
+				BFF30CB028AF3D56001D7052 /* bands.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9DE28AC0032003935AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9E828AC0032003935AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6AA0928AC0F9B003935AF /* gigData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF6A9CC28AC002F003935AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A9FF28AC0B2C003935AF /* GigListView.swift in Sources */,
+				BFF6A9D628AC002F003935AF /* ContentView.swift in Sources */,
+				BFF30CAA28AF2AB1001D7052 /* Band.swift in Sources */,
+				BFF6AA0128AC0C2E003935AF /* GigView.swift in Sources */,
+				BFF30CB728AF45B6001D7052 /* GigOApi.swift in Sources */,
+				BF2179D828B02BC50009E6E0 /* AgendaView.swift in Sources */,
+				BFF30CAC28AF2ABE001D7052 /* Plan.swift in Sources */,
+				BFF30CB928AF4D8F001D7052 /* LogInView.swift in Sources */,
+				BFF6A9D428AC002F003935AF /* Gig_OApp.swift in Sources */,
+				BF1F20A428AC873400C59809 /* GigDetail.swift in Sources */,
+				BF1F209D28AC299400C59809 /* StatusIcons.swift in Sources */,
+				BFF6AA0428AC0DEC003935AF /* Gig.swift in Sources */,
+				BFF6AA0628AC0E5A003935AF /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9DC28AC0032003935AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A9E528AC0032003935AF /* Gig_OTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6A9E628AC0032003935AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A9F128AC0032003935AF /* Gig_OUITestsLaunchTests.swift in Sources */,
+				BFF6A9EF28AC0032003935AF /* Gig_OUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF6A9E228AC0032003935AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF6A9CF28AC002F003935AF /* Gig-O */;
+			targetProxy = BFF6A9E128AC0032003935AF /* PBXContainerItemProxy */;
+		};
+		BFF6A9EC28AC0032003935AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF6A9CF28AC002F003935AF /* Gig-O */;
+			targetProxy = BFF6A9EB28AC0032003935AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFF6A9F228AC0032003935AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF6A9F328AC0032003935AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF6A9F528AC0032003935AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Gig-O/Preview\\ Content";
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gig-O/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-O";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF6A9F628AC0032003935AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Gig-O/Preview\\ Content";
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gig-O/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-O";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFF6A9F828AC0032003935AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-OTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gig-O.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gig-O";
+			};
+			name = Debug;
+		};
+		BFF6A9F928AC0032003935AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-OTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gig-O.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gig-O";
+			};
+			name = Release;
+		};
+		BFF6A9FB28AC0032003935AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-OUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gig-O";
+			};
+			name = Debug;
+		};
+		BFF6A9FC28AC0032003935AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZBX6LMAUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gig-o-matic.Gig-OUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gig-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF6A9CB28AC002F003935AF /* Build configuration list for PBXProject "Gig-O" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A9F228AC0032003935AF /* Debug */,
+				BFF6A9F328AC0032003935AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6A9F428AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-O" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A9F528AC0032003935AF /* Debug */,
+				BFF6A9F628AC0032003935AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6A9F728AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-OTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A9F828AC0032003935AF /* Debug */,
+				BFF6A9F928AC0032003935AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6A9FA28AC0032003935AF /* Build configuration list for PBXNativeTarget "Gig-OUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A9FB28AC0032003935AF /* Debug */,
+				BFF6A9FC28AC0032003935AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF6A9C828AC002F003935AF /* Project object */;
+}
