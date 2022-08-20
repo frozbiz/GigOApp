@@ -29,8 +29,17 @@ struct AgendaView: View {
 
     var body: some View {
         List {
-            GigListView(gigs: unrespondedUpcomingGigs, heading: "Future Gigs: Weigh In!")
-            GigListView(gigs: respondedUpcomingGigs, heading: "All Upcoming Gigs", briefHeading: "My Next Few Gigs", showBrief: true)
+            let fg = unrespondedUpcomingGigs
+            if fg.count > 0 {
+                GigListView(gigs: fg, heading: "Future Gigs: Weigh In!")
+            }
+            let ug = respondedUpcomingGigs
+            if ug.count > 0 {
+                GigListView(gigs: respondedUpcomingGigs, heading: "All Upcoming Gigs", briefHeading: "My Next Few Gigs", showBrief: true)
+            }
+            if ug.count == 0 && fg.count == 0 {
+                Text("No Upcoming Gigs")
+            }
         }
         .navigationTitle("Schedule: \(modelData.user?.name ?? "SampleUser")")
         .toolbar {
